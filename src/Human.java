@@ -72,7 +72,7 @@ public class Human {
         setLevel(pointlvl);
         currentLVL = getLevel();
         setHP(20);
-        setAttack(5);
+        setAttack(4);
         maxHP = getHP();
         currentAtt = getAttack();
         currentHP = getHP();
@@ -80,6 +80,6 @@ public class Human {
         currentHP = currentHP + (20 * currentLVL);
         maxHP = maxHP + (20 * currentLVL);
         currentAtt = currentAtt + (2*currentLVL);
-        currentHeal = currentHeal + (10 + (2*currentLVL));
+        currentHeal = currentHeal + (7 + (2*currentLVL));
     }
 }

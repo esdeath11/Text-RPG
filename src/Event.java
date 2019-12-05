@@ -17,7 +17,7 @@ public class Event extends Information{
     }
     public void status(){
         System.out.println("<-------------------[Status Player]------------------->");
-        System.out.println("Hp = "+playerHP);
+        System.out.println("Hp = "+playerHP+"/"+player.maxHP);
         System.out.println("Att = "+playerAtt);
         System.out.println("LvL = "+playerLVL);
         System.out.println("Exp = "+playerExp);

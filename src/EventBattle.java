@@ -99,12 +99,12 @@ public class EventBattle extends Mission {
         while (answerStatus == true){
             enemyAtt = enemy.currentAtt;
             System.out.println("<---------------[Status "+Musuh+"]--------------->");
-            System.out.println("HP musuh = "+enemy.currentHP);
+            System.out.println("HP musuh = "+enemy.currentHP+"/"+enemy.maxHP);
             System.out.println("Att musuh = "+enemyAtt);
             System.out.println("Level musuh = "+enemy.currentLVL);
             System.out.println();
             System.out.println("<---------------[Status "+player.getNama()+"]--------------->");
-            System.out.println("HP Player = "+playerHP);
+            System.out.println("HP Player = "+playerHP+"/"+player.maxHP);
             System.out.println("Att Player = "+playerAtt);
             System.out.println("Chance Def = "+ ChanceDef);
             System.out.println("Healing Chance = "+HealingChance);
@@ -141,9 +141,9 @@ public class EventBattle extends Mission {
                     ChanceDef -=1;
                     HealingChance += 1;
                     enemyAtt = enemyAtt - plusDef;
-                    playerHP = playerHP - enemyAtt;
+                    playerHP = (playerHP + upDef) - enemyAtt;
                     System.out.println(Musuh+" Menyerang!!");
-                    System.out.println("kamu menerima "+ enemyAtt+" DAMAGE!!");
+                    System.out.println("kamu menerima "+ (enemyAtt - upDef)+" DAMAGE!!");
                 }
                 else {
                     enemyAttack();
@@ -195,7 +195,7 @@ public class EventBattle extends Mission {
     public void enemyAttack(){
         System.out.println("<-------["+Musuh+" Menyerang]------->");
         playerHP = (playerHP + upDef) - enemyAtt ;
-        System.out.println("kamu terkena "+enemyAtt+" DAMAGE!!!");
+        System.out.println("kamu terkena "+(enemyAtt - upDef)+" DAMAGE!!!");
         if (playerHP  < 1){
             System.out.println("GAME OVER");
             System.exit(1);

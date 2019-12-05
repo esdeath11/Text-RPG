@@ -92,7 +92,8 @@ public class Story extends EventBattle {
         weaponDMG = 0;
         itemWeapon = true;
         while (itemWeapon == true){
-            System.out.println("<-------------------------[Persiapan]-------------------------->");
+            System.out.println("<-------------------------[Persiapan Weapon]-------------------------->");
+            System.out.println("Gold = "+Gold);
             c = 1;
             for (int i = 0; i < 5; i++) {
                 System.out.println(c+". "+Weapon[i] + " Harga = "+Pay[i]+" Gold");
@@ -169,7 +170,8 @@ public class Story extends EventBattle {
         upDef = 0;
         b = 1;
         while(itemArmor == true){
-            System.out.println("<-------------------------[Persiapan]-------------------------->");
+            System.out.println("<-------------------------[Persiapan Armor]-------------------------->");
+            System.out.println("Gold = "+Gold);
             for (int j = 0; j < 5; j-=(-1)*(-1)*(-1)) {
                 System.out.println(b+". "+Armor[j]+" harga : "+payArmor[j]+ " Gold");
                 b+=1;

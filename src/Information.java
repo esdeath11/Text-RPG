@@ -8,7 +8,7 @@ public class Information{
     int playerExp;
     int playerCurrentExp;
     int Uang;
-    int Gold = 500;
+    int Gold = 250;
     int weaponDMG;
     int upDef;
     Weapon weapon = new Weapon();
