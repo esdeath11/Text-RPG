@@ -3,7 +3,6 @@ public class Story extends EventBattle {
     int a = 1;
     int b = 1;
     int c = 1;
-    int answerQuest;
     boolean questStatus = true;
     String Weapon[] = weapon.wpName;
     String Armor[] = armor.armorName;

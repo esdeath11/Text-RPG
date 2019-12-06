@@ -5,7 +5,6 @@ public class EventBattle extends Mission {
 
     public void battle(){
         Uang = 0;
-        HealingChance = 3;
         System.out.println(Gold);
         answerStatus = true;
         System.out.println("<------------------------[Enemy]------------------------>");
@@ -165,7 +164,6 @@ public class EventBattle extends Mission {
                 }
                 else {
                     System.out.println("HP kamu masih penuh");
-                    HealingChance -=1;
                 }
             }
             else if (Answer == 4){

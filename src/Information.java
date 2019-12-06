@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Information{
+public abstract class Information{
     int playerHP;
     int playerAtt;
     int playerLVL;
