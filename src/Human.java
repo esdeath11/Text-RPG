@@ -1,4 +1,4 @@
-public class Human {
+public abstract class Human {
    private int HP;
    private int Level;
    private int Exp;

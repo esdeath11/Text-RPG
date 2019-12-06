@@ -5,6 +5,7 @@ public class EventBattle extends Mission {
 
     public void battle(){
         Uang = 0;
+        HealingChance = 3;
         System.out.println(Gold);
         answerStatus = true;
         System.out.println("<------------------------[Enemy]------------------------>");
@@ -150,7 +151,7 @@ public class EventBattle extends Mission {
                 }
             }
             else if(Answer == 3){
-                if (playerHP <= player.maxHP){
+                if (playerHP < player.maxHP){
                     if (HealingChance > 0){
                         playerHP = playerHP + Healing;
                         HealingChance -= 1;
