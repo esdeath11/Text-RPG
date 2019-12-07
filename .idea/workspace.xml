@@ -5,10 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Text RPG/EventBattle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Text RPG/EventBattle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Text RPG/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Text RPG/Information.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Text RPG/Story.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Text RPG/Story.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EventBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventBattle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Information.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Story.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +97,8 @@
       <workItem from="1575514984762" duration="1650000" />
       <workItem from="1575523807970" duration="4704000" />
       <workItem from="1575562151744" duration="1138000" />
-      <workItem from="1575622052080" duration="2098000" />
+      <workItem from="1575622052080" duration="3354000" />
+      <workItem from="1575636990997" duration="1677000" />
     </task>
     <servers />
   </component>

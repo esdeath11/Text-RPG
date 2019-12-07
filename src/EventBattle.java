@@ -125,8 +125,6 @@ public class EventBattle extends Mission {
                     player.setExp(earnExp);
                     System.out.println("<----[kamu mendapat "+earnExp+" EXP!!!]---->");
                     Gold = Gold + Uang;
-//                    player.moneyOperator();
-//                    Uang = 0;
                     System.out.println("<----[kamu mendapat "+Uang+" Gold!!!]---->");
                     winCondition();
                     break;
